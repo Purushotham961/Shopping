@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-08T22:58:47 IST" name="Suite" finished-at="2023-01-08T22:59:11 IST" duration-ms="23424">
+    <groups>
+    </groups>
+    <test started-at="2023-01-08T22:58:47 IST" name="Test" finished-at="2023-01-08T22:59:11 IST" duration-ms="23424">
+      <class name="purushotham.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:purushotham.tests.SubmitOrderTest@821330f]" started-at="2023-01-08T22:58:47 IST" name="launchApplication" finished-at="2023-01-08T22:58:53 IST" duration-ms="6266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:purushotham.tests.SubmitOrderTest@821330f]" started-at="2023-01-08T22:58:53 IST" name="submitOrder" finished-at="2023-01-08T22:59:10 IST" duration-ms="16745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:purushotham.tests.SubmitOrderTest@821330f]" started-at="2023-01-08T22:59:10 IST" name="closeBrowser" finished-at="2023-01-08T22:59:11 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- purushotham.tests.SubmitOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
