@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-08T22:58:47 IST" name="Suite" finished-at="2023-01-08T22:59:11 IST" duration-ms="23424">
+  <suite started-at="2023-01-08T23:40:04 IST" name="Suite" finished-at="2023-01-08T23:40:28 IST" duration-ms="24519">
     <groups>
     </groups>
-    <test started-at="2023-01-08T22:58:47 IST" name="Test" finished-at="2023-01-08T22:59:11 IST" duration-ms="23424">
+    <test started-at="2023-01-08T23:40:04 IST" name="Test" finished-at="2023-01-08T23:40:28 IST" duration-ms="24519">
       <class name="purushotham.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:purushotham.tests.SubmitOrderTest@821330f]" started-at="2023-01-08T22:58:47 IST" name="launchApplication" finished-at="2023-01-08T22:58:53 IST" duration-ms="6266" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:purushotham.tests.SubmitOrderTest@5efa40fe]" started-at="2023-01-08T23:40:04 IST" name="launchApplication" finished-at="2023-01-08T23:40:11 IST" duration-ms="7289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder()[pri:0, instance:purushotham.tests.SubmitOrderTest@821330f]" started-at="2023-01-08T22:58:53 IST" name="submitOrder" finished-at="2023-01-08T22:59:10 IST" duration-ms="16745" status="PASS">
+        <test-method signature="submitOrder()[pri:0, instance:purushotham.tests.SubmitOrderTest@5efa40fe]" started-at="2023-01-08T23:40:11 IST" name="submitOrder" finished-at="2023-01-08T23:40:22 IST" duration-ms="10609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:purushotham.tests.SubmitOrderTest@821330f]" started-at="2023-01-08T22:59:10 IST" name="closeBrowser" finished-at="2023-01-08T22:59:11 IST" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:purushotham.tests.SubmitOrderTest@5efa40fe]" started-at="2023-01-08T23:40:22 IST" name="closeBrowser" finished-at="2023-01-08T23:40:22 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- purushotham.tests.SubmitOrderTest -->
+      <class name="purushotham.tests.TestByJsonData">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:purushotham.tests.TestByJsonData@7fb4f2a9]" started-at="2023-01-08T23:40:04 IST" name="launchApplication" finished-at="2023-01-08T23:40:11 IST" duration-ms="7019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="jsonDataTest(java.util.HashMap)[pri:0, instance:purushotham.tests.TestByJsonData@7fb4f2a9]" started-at="2023-01-08T23:40:11 IST" name="jsonDataTest" data-provider="getData" finished-at="2023-01-08T23:40:28 IST" duration-ms="16943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=ZARA COAT 3, password=Puru@12345, email=purushothamtest@gmail.com, productName1=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonDataTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:purushotham.tests.TestByJsonData@7fb4f2a9]" started-at="2023-01-08T23:40:28 IST" name="closeBrowser" finished-at="2023-01-08T23:40:28 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- purushotham.tests.TestByJsonData -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
